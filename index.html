@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+
+    <audio id="backgroundMusic" autoplay>
+        <source src="audio/Taylor Swift - 22.mp3" type="audio/mpeg"> <!--Altera a música de fundo-->
+    </audio>   
+    <button class= "soundButton" onclick="document.getElementById('backgroundMusic').play()"> Tocar música</button>
+
+    <div class="birthdayCard">
+        <div class="cardFront">
+            <div class="front-text">
+                <h1 class="happybday",>FELIZ ANIVERSÁRIO</h1>
+                <h2 class="toyou">SN!!</h2> <!--Nome aniversariante-->
+            </div>
+            <div> 
+                <p class="back-txt"> Insira um texto de sua preferência</p> <!--Texto verso, abaixo da foto-->
+            </div>
+            <div class="wrap-deco">
+                <div class="decorations"></div>
+                <div class="decorationsTwo"></div>
+            </div>
+            <div class="wrap-decoTwo">
+                <div class="decorations"></div>
+                <div class="decorationsThree"></div>
+            </div>
+            <div class="plate">
+                <div class="cake"></div>
+                <div class="flame"></div>
+            </div>
+            <img class=image alt="html image example" src="image/smps.jpg"/> <!--Altera a imagem-->
+            
+        </div>
+        <div class="cardInside">
+            <div class="wishes">
+                <p>SN,</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam rerum minus unde sint molestiae 
+                    ipsa molestias atque enim. Quae aliquid totam officiis commodi nulla fuga accusantium in ipsum sed ea.<br><br>
+
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia corporis harum vel modi dicta provident 
+                    nostrum delectus dolore. Corporis dolores enim dolor numquam unde deleniti reprehenderit, exercitationem 
+                    blanditiis placeat cum.<br><br>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloremque, qui, cum vero dignissimos porro earum 
+                    dolores natus est repellat error ipsa obcaecati tempora dicta? Voluptatum at earum hic repudiandae.
+                    </p>
+                <p class="goodbye">Com carinho,</p>
+                <p class="signature">SN</p>
+                <p class="greats">Ps.: Quae aliquid totam officiis commodi nulla fuga accusantium in 
+            </div>
+        </div>
+    </div>
+
+    <div class="balloon-container">
+        <div class="balloon" id="balloon1"></div>
+        <div class="balloon" id="balloon2"></div>
+        <div class="balloon" id="balloon3"></div>
+        <div class="balloon" id="balloon4"></div>
+        <div class="balloon" id="balloon5"></div>
+        <div class="balloon" id="balloon6"></div>
+    </div>
+    
+</body>
+
+</html>
